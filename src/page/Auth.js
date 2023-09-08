@@ -12,13 +12,13 @@ const Auth = () => {
                     <Form.Control className="mt-3" placeholder="Введите ваш email"/>
                     <Form.Control className="mt-3" placeholder="Введите ваш пароль"/>
 
-                    <Row className="d-flex justify-content-between mt-3 ps-3 pe-3">
-                        <div>Нет аккаунта?<NavLink to={REGISTRATION_ROUTE}> Зарегестрируйтесь!</NavLink></div>
+                    <div className="d-flex justify-content-between mt-3">
+                        <div >Нет аккаунта?<NavLink to={REGISTRATION_ROUTE}> Зарегестрируйтесь!</NavLink></div>
                         <Button variant="outline-success" >Войти</Button>
-                    </Row>
+                    </div>
                 </Form>
 
-                
+
             </Card>
         </Container>
     );
