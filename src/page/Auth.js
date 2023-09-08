@@ -25,8 +25,6 @@ const Auth = () => {
                         <Button variant="outline-success">{isLogin ? "Войти" : "Регистрация"}</Button>
                     </div>
                 </Form>
-
-
             </Card>
         </Container>
     );
