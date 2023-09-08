@@ -8,29 +8,29 @@ import DevicePage from "./page/DevicePage";
 export const authRoutes = [
     {
         path: ADMIN_ROUTE,
-        component: Admin
+        component: <Admin/>
     },
     {
         path: BASKET_ROUTE,
-        component: Basket
+        component: <Basket/>
     }
 ]
 
 export const publicRoutes = [
     {
         path: SHOP_ROUTE,
-        component: Shop
+        component: <Shop/>
     },
     {
         path: LOGIN_ROUTE,
-        component: Auth
+        component: <Auth/>
     },
     {
         path: REGISTRATION_ROUTE,
-        component: Auth
+        component: <Auth/>
     },
     {
         path: DEVICE_ROUTE + "/:id",
-        component: DevicePage
+        component: <DevicePage/>
     }
 ]
